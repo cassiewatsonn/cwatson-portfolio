@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cwatson-portfolio/static/css/main.c2cab247.css",
+    "main.js": "/cwatson-portfolio/static/js/main.801a756a.js",
+    "index.html": "/cwatson-portfolio/index.html",
+    "main.c2cab247.css.map": "/cwatson-portfolio/static/css/main.c2cab247.css.map",
+    "main.801a756a.js.map": "/cwatson-portfolio/static/js/main.801a756a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.801a756a.js"
+  ]
+}
