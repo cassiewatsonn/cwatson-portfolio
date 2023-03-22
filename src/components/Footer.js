@@ -1,1 +1,13 @@
-import React from 'react'; 
+import React from 'react';
+
+
+export default function Footer() {
+
+    return (
+<footer> 
+{/* links to github, linkedin,  stack overflow */}
+</footer>
+    
+        );
+
+}

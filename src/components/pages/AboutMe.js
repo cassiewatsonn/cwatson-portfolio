@@ -1,7 +1,9 @@
 import React from 'react';
 
-function AboutMe(){
 
+export default function AboutMe() {
+    return (
+    <div><p>About Me</p> </div>
+    )
+  //recent photo/avatar & bio
 }
-
-export default AboutMe;

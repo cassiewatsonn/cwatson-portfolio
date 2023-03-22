@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import Nav from './Nav';
+import NavTabs from './NavTabs';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import ContactMe from './pages/ContactMe';
+import Header from './Header';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
   // conditional operator to check which page is the current page in order to render it properly
   const renderPage = () => {
@@ -26,11 +27,12 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-
+      <Header>
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      </Header>
       {renderPage()}
     </div>
   );
 }
+
 
