@@ -24,11 +24,8 @@ TITLES: font-family: 'Kalam', cursive; */
 .nav-tabs{
   font-family: 'Kalam', cursive;
   /* color:rgb(59, 58, 58); */
-  
 }
-/* TODO: THIS NEEDS TO BE CHANGED TO ONLY CHANGE
-WHEN CLICKED */
-#navs{
+#navs:focus{
   background-color: #FEF6F0;
 }
 
@@ -37,19 +34,27 @@ WHEN CLICKED */
 /* TODO: PORTFOLIO PAGE */
 .portfolio-card{
   width: 350px;
+  flex-wrap:wrap;
   /* min-width: 250px; */
   margin: 15px;
+  background-color: #bbddf9 !important;
 }
 /* TODO: THIS DOESNT SEEM TO COVER ALL CARDS 
 BACKGROUNDS */
-.card-background{
+/* .card-background{
  background-color: #bbddf9;
-}
+} */
 .card-wrap{
   display: flex; 
   flex-wrap: wrap;
+  margin-right: 20%;
+  margin-left:20%;
+  /* height: 40%; */
+  width: 60%;
+  justify-content: center;
 
 }
+
 .portfolio-title{
   margin: 20px;
   text-align: center;
@@ -74,7 +79,7 @@ BACKGROUNDS */
 
 .card-contact{
   margin:150px;
-  background-color: #bbddf9;
+  background-color: #bbddf9 !important;
 
 
 }
@@ -149,7 +154,8 @@ BACKGROUNDS */
 }
 /* TODO: CENTER */
 .img-download{
-  
+  display: flex;
+  justify-content: center;
 }
 .front-prof-title{
   font-family: 'Kalam', cursive;
@@ -196,8 +202,12 @@ BACKGROUNDS */
   text-align: center;
 }
 .footer-logos{
+  display:flex;
+  justify-content: space-between;
   margin:10px;
   padding: 10px;
+  padding-left: 30%;
+  padding-right: 30%;
 
 }
 .copyright{

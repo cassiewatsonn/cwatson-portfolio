@@ -11,7 +11,7 @@ export default function ProjectCard({
         <div className="card portfolio-card" >
             <div className='card-background'>
                 <div className="img-container"> 
-                    <img width="300px" height="300px" alt={project.name} src={process.env.PUBLIC_URL+project.image}/>
+                    <img className='current-image' width={project.width} height={project.height} alt={project.name} src={process.env.PUBLIC_URL+project.image}/>
                 </div>
                 <div className="content">
                     <ul> 

@@ -48,7 +48,7 @@ export default function Resume() {
             <div className='resume-download'>
                 <h5 className='instruct'>Click the download button below to download my resume!</h5>
                 <div className="img-download"> 
-                    <img width="100px" height="100px" alt='download' src='../mediaimages/download_FILL0_wght400_GRAD0_opsz48.png' onClick={downloadResume}/>
+                    <img width="50px" height="50px" alt='download' src={require('../../mediaimages/download_FILL0_wght400_GRAD0_opsz48.png')} onClick={downloadResume}/>
                 </div>
             </div>
             <div>
