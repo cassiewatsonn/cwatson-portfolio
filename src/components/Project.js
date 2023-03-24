@@ -15,13 +15,13 @@ export default function ProjectCard({
             <div className="content">
                 <ul> 
                     <li>
-                        <strong>Name:</strong> {project.name}
+                    <a href={project.link} target="_blank" ><strong></strong> {project.name}</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href={project.link} target="_blank" ><strong>Link: </strong></a>
-                    </li>
+                    </li> */}
                     <li>
-                        <strong>Description</strong> {project.description}
+                        <strong>Description:</strong> {project.description}
                     </li>
                 </ul>
             </div>

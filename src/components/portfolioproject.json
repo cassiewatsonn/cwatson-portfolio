@@ -26,5 +26,19 @@
         "image": "/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg", 
         "link": "https://github.com/cassiewatsonn/JavaScriptQuiz", 
         "description": "Test your Javascript skills!"
+    },
+    {
+        "id": 5, 
+        "name": "JavaScript Quiz!",
+        "image": "/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg", 
+        "link": "https://github.com/cassiewatsonn/JavaScriptQuiz", 
+        "description": "Test your Javascript skills!"
+    }, 
+    {
+        "id": 6, 
+        "name": "JavaScript Quiz!",
+        "image": "/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg", 
+        "link": "https://github.com/cassiewatsonn/JavaScriptQuiz", 
+        "description": "Test your Javascript skills!"
     }
 ]

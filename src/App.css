@@ -3,6 +3,8 @@
   background-color: #61dafb !important;
   color: azure !important;
 }
+
+/* PORTFOLIO PAGE */
 .portfolio-card{
   width: 350px;
   /* min-width: 250px; */
@@ -13,6 +15,7 @@
   flex-wrap: wrap;
 }
 
+/* CONTACT ME PAGE*/
 .contact-input{
   display:flex; 
   justify-content: center;
@@ -23,4 +26,15 @@
   display: block;
   margin: 14px 0px;
 }
+
+.img-container{
+  margin: 24px;
+}
+
+/* ABOUT ME PAGE*/
+.cassie-photo{
+  margin: 20px;
+}
+
+
 
