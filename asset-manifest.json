@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/cwatson-portfolio/static/css/main.c2cab247.css",
-    "main.js": "/cwatson-portfolio/static/js/main.801a756a.js",
+    "main.css": "/cwatson-portfolio/static/css/main.5d1d65bc.css",
+    "main.js": "/cwatson-portfolio/static/js/main.cad5e7d4.js",
+    "static/media/Instagram_Glyph_White.png": "/cwatson-portfolio/static/media/Instagram_Glyph_White.bb8a77bfaa323012e852.png",
     "index.html": "/cwatson-portfolio/index.html",
-    "main.c2cab247.css.map": "/cwatson-portfolio/static/css/main.c2cab247.css.map",
-    "main.801a756a.js.map": "/cwatson-portfolio/static/js/main.801a756a.js.map"
+    "main.5d1d65bc.css.map": "/cwatson-portfolio/static/css/main.5d1d65bc.css.map",
+    "main.cad5e7d4.js.map": "/cwatson-portfolio/static/js/main.cad5e7d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2cab247.css",
-    "static/js/main.801a756a.js"
+    "static/css/main.5d1d65bc.css",
+    "static/js/main.cad5e7d4.js"
   ]
 }
