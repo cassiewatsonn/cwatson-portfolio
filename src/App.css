@@ -79,15 +79,48 @@ BACKGROUNDS */
 }
 
 /* CONTACT ME PAGE*/
+
+.card-contact{
+  margin:150px;
+  background-color: #bbddf9;
+
+
+}
+
+.boxes{
+  margin: 20px 50px;
+  padding-bottom: 10px;
+}
+
+.contact-title{
+  padding-top: 40px;
+  margin:20px;
+  font-family: 'Kalam', cursive;
+  text-align: center;
+}
+
+.contact-error-msg{
+  font-family: 'Handlee', cursive;
+}
+
 .contact-input{
   display:flex; 
   justify-content: center;
+}
 
+.input-box{
+  font-family: 'Handlee', cursive;
 }
 
 .contact-input input{
   display: block;
   margin: 14px 0px;
+}
+
+.submit-button{
+  font-family: 'Kalam', cursive;
+  align-self: center;
+  margin-bottom: 20px;
 }
 
 .img-container{
@@ -98,6 +131,7 @@ BACKGROUNDS */
 .about-txt{
   margin:20px;
   text-align: center;
+  font-family: 'Kalam', cursive;
 }
 
 .cassie-photo{
@@ -106,10 +140,12 @@ BACKGROUNDS */
 
 .bio{
   margin:20px;
+  font-family: 'Kalam', cursive;
 }
 
 .bio-description{
   margin:20px;
+  font-family: 'Handlee', cursive;
 }
 
 
