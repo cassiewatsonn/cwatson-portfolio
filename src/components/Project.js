@@ -31,24 +31,4 @@ export default function ProjectCard({
         // </Projects>
     )
 }
-// export default function Project(props) {
-//     return (
-//         <div>
-//             <h1>Projects</h1>
-//             {props.children}
-//         </div>
-
-        // <Wrapper>
-        //     {this.state.projects.map(projects =>
-        //         <projectCard
-        //             id={Projects.id}
-        //             name={Projects.name}
-        //             image={Projects.image}
-        //             link={Projects.link}
-        //             description={Projects.description}
-        //         />
-        //     )}
-        // </Wrapper>
-//     )
-// }
 

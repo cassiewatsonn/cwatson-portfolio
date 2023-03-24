@@ -9,7 +9,6 @@ TITLES: font-family: 'Kalam', cursive; */
   background-color: #f9bb89 !important;
   color: #C2CAD0 !important;
 }
-
 .name-title{
   margin-left: 30px;
   padding-top: 15px;
@@ -17,68 +16,61 @@ TITLES: font-family: 'Kalam', cursive; */
   font-family: 'Dancing Script', cursive;
   color: rgb(59, 58, 58);
 }
-
 .portfolio-cont{
   background-color: #FEF6F0;
 }
 
-/* NAV TABS */
+/* TODO: NAV TABS */
 .nav-tabs{
   font-family: 'Kalam', cursive;
   /* color:rgb(59, 58, 58); */
   
 }
-
-/* THIS NEEDS TO BE CHANGED TO ONLY CHANGE
+/* TODO: THIS NEEDS TO BE CHANGED TO ONLY CHANGE
 WHEN CLICKED */
 #navs{
   background-color: #FEF6F0;
 }
 
-/* PORTFOLIO PAGE */
+
+
+/* TODO: PORTFOLIO PAGE */
 .portfolio-card{
   width: 350px;
   /* min-width: 250px; */
   margin: 15px;
 }
-
-/* THIS DOESNT SEEM TO COVER ALL CARDS 
+/* TODO: THIS DOESNT SEEM TO COVER ALL CARDS 
 BACKGROUNDS */
 .card-background{
  background-color: #bbddf9;
 }
-
 .card-wrap{
   display: flex; 
   flex-wrap: wrap;
 
 }
-
 .portfolio-title{
   margin: 20px;
   text-align: center;
   font-family: 'Kalam', cursive;
 }
-
 .projectcard-title{
   text-decoration:solid;
   font-family: 'Kalam', cursive;
 }
-
 .card-title{
   text-align: center;
   padding-right: 41px;
 }
-
 .content{
   font-family: 'Handlee', cursive;
 }
-
 .underline{
   text-decoration: underline;
 }
 
-/* CONTACT ME PAGE*/
+/* TODO: CONTACT ME PAGE*/
 
 .card-contact{
   margin:150px;
@@ -86,87 +78,128 @@ BACKGROUNDS */
 
 
 }
-
 .boxes{
   margin: 20px 50px;
   padding-bottom: 10px;
 }
-
 .contact-title{
   padding-top: 40px;
   margin:20px;
   font-family: 'Kalam', cursive;
   text-align: center;
 }
-
 .contact-error-msg{
   font-family: 'Handlee', cursive;
 }
-
 .contact-input{
   display:flex; 
   justify-content: center;
 }
-
 .input-box{
   font-family: 'Handlee', cursive;
 }
-
 .contact-input input{
   display: block;
   margin: 14px 0px;
 }
-
 .submit-button{
   font-family: 'Kalam', cursive;
   align-self: center;
   margin-bottom: 20px;
 }
-
 .img-container{
   margin: 24px;
 }
 
-/* ABOUT ME PAGE*/
+
+
+
+/* TODO: ABOUT ME PAGE*/
+
+
 .about-txt{
   margin:20px;
   text-align: center;
   font-family: 'Kalam', cursive;
 }
-
 .cassie-photo{
   margin: 20px;
 }
-
 .bio{
   margin:20px;
   font-family: 'Kalam', cursive;
 }
-
 .bio-description{
   margin:20px;
   font-family: 'Handlee', cursive;
 }
 
 
-/* FOOTER */
+
+/* TODO: RESUME */
+
+.resume-title{
+  font-family: 'Kalam', cursive;
+  text-align: center;
+  margin: 20px;
+}
+.instruct{
+  text-align: center;
+  font-family: 'Handlee', cursive;
+}
+/* TODO: CENTER */
+.img-download{
+  
+}
+.front-prof-title{
+  font-family: 'Kalam', cursive;
+  padding-left: 40px;
+  margin: 20px;
+}
+.front-end{
+  font-family: 'Handlee', cursive;
+}
+.back-prof-title{
+  font-family: 'Kalam', cursive;
+  padding-left: 40px;
+  margin: 20px;
+}
+.back-end{
+  font-family: 'Handlee', cursive;
+}
+.p-manag-title{
+  font-family: 'Kalam', cursive;
+  padding-left: 40px;
+  margin: 20px;
+}
+.project-management{
+  font-family: 'Handlee', cursive;
+}
+.c-skills-title{
+  font-family: 'Kalam', cursive;
+  padding-left: 40px;
+  margin: 20px;
+}
+.c-skills{
+  font-family: 'Handlee', cursive;
+}
+
+
+
+/* TODO: FOOTER */
 .footer{
   background-color: #f9bb89;
   padding-top: 20px;;
 }
-
 .footer-title{
   font-family: 'Kalam', cursive;
   text-align: center;
 }
-
 .footer-logos{
   margin:10px;
   padding: 10px;
 
 }
-
-
 .copyright{
   font-family: 'Handlee', cursive;
   text-align: center;
