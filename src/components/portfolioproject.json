@@ -4,41 +4,47 @@
         "name": "Cassie's Cookbook!",
         "image": "/images/kevin-mccutcheon-APDMfLHZiRA-unsplash.jpg", 
         "link": "https://github.com/Connor812/Cassie-s-Cookbook", 
-        "description": "Find, create and share all of your favourite recipes."
+        "description": "Find, create and share all of your favourite recipes.",
+        "used": "Node.js, Express.js to create a RESTful API. Handlebars.js as the templating engine. MySQL and Sequelize ORM for the database. GET and POST routes for retrieving and adding new data. Deployed with Heroku."
     },
     {
         "id": 2, 
         "name": "JavaScript Quiz!",
-        "image": "/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg", 
+        "image": "/images/blake-connally-B3l0g6HLxr8-unsplash.jpg", 
         "link": "https://github.com/cassiewatsonn/JavaScriptQuiz", 
-        "description": "Test your Javascript skills!"
+        "description": "Test your Javascript skills!", 
+        "used": "HTML and CSS that are dynamically updated; powered by JavaScript"
     }, 
     {
         "id": 3, 
-        "name": "JavaScript Quiz!",
-        "image": "/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg", 
-        "link": "https://github.com/cassiewatsonn/JavaScriptQuiz", 
-        "description": "Test your Javascript skills!"
+        "name": "NoSQL-Social (Backend)",
+        "image": "/images/daniel-josef-AMssSjUaTY4-unsplash (1).jpg", 
+        "link": "https://github.com/cassiewatsonn/NoSQL-Social", 
+        "description": "This is a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.", 
+        "used": " "
     }, 
     {
         "id": 4, 
-        "name": "JavaScript Quiz!",
-        "image": "/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg", 
-        "link": "https://github.com/cassiewatsonn/JavaScriptQuiz", 
-        "description": "Test your Javascript skills!"
+        "name": "Employee Auditor",
+        "image": "/images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg", 
+        "link": "https://github.com/cassiewatsonn/EmployeeAuditor", 
+        "description": "This application allows business owners to view and manage departments, roles and employees so that they can effectively organize and plan their business.", 
+        "used": " "
     },
     {
         "id": 5, 
-        "name": "JavaScript Quiz!",
-        "image": "/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg", 
-        "link": "https://github.com/cassiewatsonn/JavaScriptQuiz", 
-        "description": "Test your Javascript skills!"
+        "name": "NoteTaker",
+        "image": "/images/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg", 
+        "link": "https://github.com/cassiewatsonn/NoteTaker", 
+        "description": "This application allows the user to create a new note, save notes, open previous notes and delete notes.", 
+        "used": " "
     }, 
     {
         "id": 6, 
-        "name": "JavaScript Quiz!",
-        "image": "/images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg", 
-        "link": "https://github.com/cassiewatsonn/JavaScriptQuiz", 
-        "description": "Test your Javascript skills!"
+        "name": "README.md Generator",
+        "image": "/images/paul-esch-laurent-oZMUrWFHOB4-unsplash.jpg", 
+        "link": "https://github.com/cassiewatsonn/README.mdGenerator", 
+        "description": "This is for users looking to quickly and easily create a quality README.md file by using a command-line application!", 
+        "used": " "
     }
 ]

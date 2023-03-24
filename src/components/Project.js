@@ -9,21 +9,23 @@ export default function ProjectCard({
     return(
         // <Projects>
         <div className="card portfolio-card" >
-            <div className="img-container"> 
-                <img width="300px" height="300px" alt={project.name} src={process.env.PUBLIC_URL+project.image}/>
-            </div>
-            <div className="content">
-                <ul> 
-                    <li>
-                    <a href={project.link} target="_blank" ><strong></strong> {project.name}</a>
-                    </li>
-                    {/* <li>
-                        <a href={project.link} target="_blank" ><strong>Link: </strong></a>
-                    </li> */}
-                    <li>
-                        <strong>Description:</strong> {project.description}
-                    </li>
-                </ul>
+            <div className='card-background'>
+                <div className="img-container"> 
+                    <img width="300px" height="300px" alt={project.name} src={process.env.PUBLIC_URL+project.image}/>
+                </div>
+                <div className="content">
+                    <ul> 
+                        <div className='card-title'>
+                            <a href={project.link} target="_blank" className="projectcard-title" > {project.name}</a>
+                        </div>
+                        <li>
+                            <strong className="underline">Description:</strong> {project.description}
+                        </li>
+                        <li>
+                            <strong className="underline">Used:</strong> {project.used}
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         // </Projects>

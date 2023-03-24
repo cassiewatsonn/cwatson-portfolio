@@ -1,11 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Handlee&family=Kalam&display=swap');
+
+/* NAME: font-family: 'Dancing Script', cursive;
+TEXT font-family: 'Handlee', cursive;
+TITLES: font-family: 'Kalam', cursive; */
+
 
 .header-bg{
-  background-color: #61dafb !important;
-  color: azure !important;
+  background-color: #f9bb89 !important;
+  color: #C2CAD0 !important;
 }
 
 .name-title{
+  margin-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(59, 58, 58);
+}
 
+.portfolio-cont{
+  background-color: #FEF6F0;
+}
+
+/* NAV TABS */
+.nav-tabs{
+  font-family: 'Kalam', cursive;
+  /* color:rgb(59, 58, 58); */
+  
+}
+
+/* THIS NEEDS TO BE CHANGED TO ONLY CHANGE
+WHEN CLICKED */
+#navs{
+  background-color: #FEF6F0;
 }
 
 /* PORTFOLIO PAGE */
@@ -14,9 +41,41 @@
   /* min-width: 250px; */
   margin: 15px;
 }
+
+/* THIS DOESNT SEEM TO COVER ALL CARDS 
+BACKGROUNDS */
+.card-background{
+ background-color: #bbddf9;
+}
+
 .card-wrap{
   display: flex; 
   flex-wrap: wrap;
+
+}
+
+.portfolio-title{
+  margin: 20px;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+}
+
+.projectcard-title{
+  text-decoration:solid;
+  font-family: 'Kalam', cursive;
+}
+
+.card-title{
+  text-align: center;
+  padding-right: 41px;
+}
+
+.content{
+  font-family: 'Handlee', cursive;
+}
+
+.underline{
+  text-decoration: underline;
 }
 
 /* CONTACT ME PAGE*/
