@@ -21,7 +21,7 @@
         "image": "/images/daniel-josef-AMssSjUaTY4-unsplash (1).jpg", 
         "link": "https://github.com/cassiewatsonn/NoSQL-Social", 
         "description": "This is a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.", 
-        "used": " "
+        "used": "Express.js for routing, a MongoDB database, and the Mongoose ODM."
     }, 
     {
         "id": 4, 
@@ -29,7 +29,7 @@
         "image": "/images/dylan-gillis-KdeqA3aTnBY-unsplash.jpg", 
         "link": "https://github.com/cassiewatsonn/EmployeeAuditor", 
         "description": "This application allows business owners to view and manage departments, roles and employees so that they can effectively organize and plan their business.", 
-        "used": " "
+        "used": "Node.js, Inquirer, and MySQL"
     },
     {
         "id": 5, 
@@ -37,7 +37,7 @@
         "image": "/images/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg", 
         "link": "https://github.com/cassiewatsonn/NoteTaker", 
         "description": "This application allows the user to create a new note, save notes, open previous notes and delete notes.", 
-        "used": " "
+        "used": "Express.js"
     }, 
     {
         "id": 6, 
@@ -45,6 +45,6 @@
         "image": "/images/paul-esch-laurent-oZMUrWFHOB4-unsplash.jpg", 
         "link": "https://github.com/cassiewatsonn/README.mdGenerator", 
         "description": "This is for users looking to quickly and easily create a quality README.md file by using a command-line application!", 
-        "used": " "
+        "used": "Node.js"
     }
 ]
