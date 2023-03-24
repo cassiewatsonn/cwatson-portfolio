@@ -7,11 +7,11 @@ export default function AboutMe() {
     <div>
       <h2 className="about-txt">About Me</h2> 
       <div id="profile-picture">
-          <img className="cassie-photo" src={process.env.PUBLIC_URL+'/images/IMG_3396.jpg'}  width="300px" height="400px" />
+          <img className="cassie-photo" src={process.env.PUBLIC_URL+'/images/IMG_3396.jpg'} alt='Cassie' width="300px" height="400px" />
           
-          <h5>Web Developer with a Passion for Enhancing Lives - Former Recreation Therapist Turned Tech Enthusiast</h5>
+          <h5 className="bio">Web Developer with a Passion for Enhancing Lives - Former Recreation Therapist Turned Tech Enthusiast</h5>
           
-          <p>As a former recreation therapist, I have spent years dedicated to improving the lives of others through creative problem-solving and innovative approaches to healthcare. I have always been fascinated by the intersection of technology and healthcare, and I decided to take the leap and pursue a career in web development. 
+          <p className="bio-description">As a former recreation therapist, I have spent years dedicated to improving the lives of others through creative problem-solving and innovative approaches to healthcare. I have always been fascinated by the intersection of technology and healthcare, and I decided to take the leap and pursue a career in web development. 
           
           Currently, I am enrolled in the University of Toronto coding bootcamp where I am developing my skills in HTML, CSS, JavaScript, and much more. I am excited to continue learning and growing as a developer and to apply my background in healthcare to create meaningful, user-focused applications that can make a difference in people's lives. 
           

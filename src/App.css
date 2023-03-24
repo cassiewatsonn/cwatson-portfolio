@@ -4,6 +4,10 @@
   color: azure !important;
 }
 
+.name-title{
+
+}
+
 /* PORTFOLIO PAGE */
 .portfolio-card{
   width: 350px;
@@ -32,9 +36,21 @@
 }
 
 /* ABOUT ME PAGE*/
+.about-txt{
+  margin:20px;
+  text-align: center;
+}
+
 .cassie-photo{
   margin: 20px;
 }
 
+.bio{
+  margin:20px;
+}
+
+.bio-description{
+  margin:20px;
+}
 
 
