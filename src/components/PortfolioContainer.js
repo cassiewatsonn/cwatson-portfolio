@@ -16,6 +16,7 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Portfolio') {
       return < Portfolio/>;
+
     }
     if (currentPage === 'Resume') {
       return <Resume />;

@@ -42,8 +42,11 @@ export default function ContactMe(){
       };
 
     return (
+
+
+      <div className="contact-input">
         <div>
-            <p>ContactMe</p> 
+        <p>Contact Me!</p> 
             {errorMessage && (
                 <div>
                  <Alert key={'warning'} variant={'warning'}>
@@ -59,6 +62,7 @@ export default function ContactMe(){
           type="email"
           placeholder="email"
         />
+
         <input
           value={name}
           name="name"
@@ -66,6 +70,7 @@ export default function ContactMe(){
           type="text"
           placeholder="name"
         />
+
         <input
           value={message}
           name="message"
@@ -73,8 +78,11 @@ export default function ContactMe(){
           type="message"
           placeholder="message"
         />
-  <Button variant="primary" onClick={handleFormSubmit}>Submit</Button>{' '}
+                <Button variant="dark" onClick={handleFormSubmit}>Submit</Button>{' '}
         </div>
+        </div>
+
+
     )
 }
 
