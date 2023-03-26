@@ -16,13 +16,16 @@ export default function ProjectCard({
                 <div className="content">
                     <ul> 
                         <div className='card-title'>
-                            <a href={project.link} target="_blank" className="projectcard-title" > {project.name}</a>
+                            <a href={project.link1} target="_blank" className="projectcard-title" > {project.name}</a>
                         </div>
                         <li>
                             <strong className="underline">Description:</strong> {project.description}
                         </li>
                         <li>
                             <strong className="underline">Used:</strong> {project.used}
+                        </li>
+                        <li>
+                            <a href={project.link2} target="_blank" className="underline" >GitHub Repository</a>
                         </li>
                     </ul>
                 </div>

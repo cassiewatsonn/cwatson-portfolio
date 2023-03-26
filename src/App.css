@@ -20,7 +20,7 @@ TITLES: font-family: 'Kalam', cursive; */
   background-color: #FEF6F0;
 }
 
-/* TODO: NAV TABS */
+/* ** NAV TABS */
 .nav-tabs{
   font-family: 'Kalam', cursive;
   /* color:rgb(59, 58, 58); */
@@ -31,7 +31,7 @@ TITLES: font-family: 'Kalam', cursive; */
 
 
 
-/* TODO: PORTFOLIO PAGE */
+/* ** PORTFOLIO PAGE */
 .portfolio-card{
   width: 350px;
   flex-wrap:wrap;
@@ -39,11 +39,6 @@ TITLES: font-family: 'Kalam', cursive; */
   margin: 15px;
   background-color: #bbddf9 !important;
 }
-/* TODO: THIS DOESNT SEEM TO COVER ALL CARDS 
-BACKGROUNDS */
-/* .card-background{
- background-color: #bbddf9;
-} */
 .card-wrap{
   display: flex; 
   flex-wrap: wrap;
@@ -54,7 +49,6 @@ BACKGROUNDS */
   justify-content: center;
 
 }
-
 .portfolio-title{
   margin: 20px;
   text-align: center;
@@ -75,13 +69,11 @@ BACKGROUNDS */
   text-decoration: underline;
 }
 
-/* TODO: CONTACT ME PAGE*/
+/* ** CONTACT ME PAGE*/
 
 .card-contact{
   margin:150px;
   background-color: #bbddf9 !important;
-
-
 }
 .boxes{
   margin: 20px 50px;
@@ -119,7 +111,7 @@ BACKGROUNDS */
 
 
 
-/* TODO: ABOUT ME PAGE*/
+/* ** ABOUT ME PAGE*/
 
 
 .about-txt{
@@ -141,7 +133,7 @@ BACKGROUNDS */
 
 
 
-/* TODO: RESUME */
+/* ** RESUME */
 
 .resume-title{
   font-family: 'Kalam', cursive;
@@ -192,7 +184,7 @@ BACKGROUNDS */
 
 
 
-/* TODO: FOOTER */
+/* **: FOOTER */
 .footer{
   background-color: #f9bb89;
   padding-top: 20px;;
